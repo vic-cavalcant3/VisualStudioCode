@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+
+.container {
+    /* pra deixar os itens flexiveis */
+    display: flex;
+    /* pra colocar os intens ao centro */
+    align-items: center;
+    /* space-around deixa espaços nos cantos
+       o space-between não deixa espaços */
+    justify-content:space-between ;}
+
+header , footer {
+    background-color: #008374;
+    color: #FFFFFF;
+    padding: 20px 80px;}
+
+a { 
+    /* muda todos os textos que estiver marcado */
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 25px;
+    margin-left: 20px;}
+
+.inicio {
+    background-color: #23A092;
+    height: 432px;
+    padding-top: 80px;}
+
+.conteudo {
+    color: white;
+    padding-left: 80px;
+    width: 600px;}
+
+.tInicio {
+    font-size: 50px;}
+
+.pInicio {
+    font-size: 40px;}
+
+.caixa {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    padding: 10px 15px;
+    text-align: center;}
+
+.diferente{
+    margin: 100px 120px;}
+
+h4 {
+    font-weight: 100;
+    margin-top: 10px;}
+
+.planos{
+    margin: 50px 80px;}
+
+.card{
+    background-color: #edecec;
+    width: 400px;
+    text-align: center;
+    padding: 30px 0;}
+
+.linha{
+    height: 30px;}
+
+.clara{
+    background-color: #f6a256;}
+
+.escura{
+    background-color: #ff912d;}
+
+h3{
+    font-size: 25px;}
+
+h5{
+    font-size: 20px;
+    margin: 7px 0;
+    font-weight: 200;}
+
+.cinza{
+    color: gray;}
+
+.texto{
+    padding-bottom: 30px;
+/*  justify-content: end; Alinha os itens na horizontal
+    align-items: center; Alinha os intens na vertical */}
+
+footer .menu{
+    display: flex;
+    flex-direction: column;}
+
+input{
+    width: 200px;
+    font-size: 20px;
+    border-radius: 7px;}
+
+button{
+    border-radius: 7px;
+    border: 2px solid black;
+    padding: 5px 7px ; }
+
+/*  cima , direito , baixo , esquerdo */
+.noticias{
+    width: 350px;}
+
+.noticias h3{
+    font-weight: 200;}
+
+.contato{
+    background-color: #23A092;
+    height: 500px;
+    color:white;
+    padding: 100px;}
+form{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 100px;}
+
+label{
+    color: white;
+    font-size: 24px;}
+
+c.Titulo{
+    font-size: 30px;}
+
+.cTexto{
+    font-size: 24px;}
+
+button{
+    width: 150px;
+    margin-top: 20px;}
+
+form input{
+    width: 300px;
+    height: 30px;}
+
+a{
+    transition: 0.5s ease-in-out;}
+
+a:hover{
+    color: red;
+    /* Passar o mouse em cima*/}
+
+img:hover{
+    scale: 1;}
+
+

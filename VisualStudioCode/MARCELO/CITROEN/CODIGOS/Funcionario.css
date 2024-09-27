@@ -1,0 +1,258 @@
+@font-face{
+    font-family: "roca";
+    src: url(/FONTES/roca-two-regular.ttf);}
+    
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "roca";
+}
+
+.lula{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;}
+
+
+.cardapio {
+        margin-top: 100px; /* Ajuste o valor conforme necessário */
+        width: 950px;
+        height: 650px;
+        border-image: round;
+        padding-bottom: 100px;
+    }
+    
+    
+
+body{
+    background-color: #F7F7F7;
+}
+
+.Barra1 {
+
+    display: flex;
+    justify-content: space-between; /* Espaça o título e o calendário */
+    align-items: center; /* Centraliza verticalmente os itens */
+    background-color: #38b2ac; /* Cor de fundo similar ao verde-água */
+    padding: 10px 20px;
+    height: 80px;
+    position: fixed;  /* Fixa a barra no topo */
+    top: 0;           /* Alinha ao topo */
+    left: 0;          /* Alinha à esquerda */
+    width: 100%;      /* Largura total da tela */
+    z-index: 1000;    /* Fica acima de outros elementos */
+}
+
+footer{
+    padding-top: 100px;
+}
+
+.Barra2{
+    display: flex;
+    justify-content: space-between; /* Espaça o título e o calendário */
+    align-items: center; /* Centraliza verticalmente os itens */
+    background-color: #38b2ac; /* Cor de fundo similar ao verde-água */
+    padding: 10px ;
+    height: 80px;
+    width: 100%;
+}
+
+
+    
+button.sesi {
+    color: white;
+    font-size: 50px;
+    background-color: #38b2ac;
+    border: none;
+    font-weight: bold;}
+
+.insta{
+    font-size: 20px;
+    color: white;
+    font-weight: 400;
+   
+}
+.titulo h1 {
+    font-size: 50px;
+    color: white;
+    font-weight: bold;
+    
+}
+
+.cardapioDigital{
+    font-size: 30px;
+    color: white;
+    font-weight: 100;
+    
+}
+
+
+.lula {
+    text-align: center;
+}
+
+.cardapio {
+    width: 950px;
+    height: 650px;
+    border-image: round;}
+    
+
+.quantidade {
+    text-align: center;
+}
+
+.botao {
+    display: inline-block;
+    margin: 10px;
+}
+
+button {
+    width: 200px;
+    height: 45px;
+    font-size: 18px;
+    background-color: #38b2ac;
+    border: none;
+    border-radius: 15px;
+    text-align: center;
+    margin: 5px auto; /* Isso centraliza o botão horizontalmente */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    
+}
+    
+#result p {
+    font-size: 25px;
+    margin-top: 20px;
+    padding-top: 1000px;
+}
+
+
+.p {
+    font-size: 30px;
+    text-align: center;
+   }
+
+.escolha{
+    font-size: 30px;
+   }
+
+.TurmaSelecionada mark{
+    font-size:25px;
+    margin-bottom: 30px;
+    text-align: center;}
+
+.TurmaSelecionada{
+    font-size: 25px;
+}
+
+.quant{
+    padding-top: 50px;
+    padding-bottom: 10px;
+    font-size: 30px;
+   }
+
+.alunos{
+    text-align: start;
+    font-size: 80px;
+    padding-bottom: 60px;}
+
+.quantveg{
+    text-align: start;
+    font-size: 25px;
+    padding-bottom: 60px;
+}
+
+.vegetariana{
+    padding-top: 50px;
+    padding-bottom: 10px;
+    font-size: 30px;
+    
+    text-align: center;
+}
+res.innerHTML{
+    padding-top: 50px;
+    padding-bottom: 10px;
+    font-size: 30px;
+   
+} 
+.botao+{
+    text-align: center;
+    padding: 50px 50px;
+}
+.quant{
+    text-align: center;
+    padding: 50px 50px;
+}
+
+
+.sesi+{
+    color: white;
+}
+
+
+
+body {
+    margin: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #3EAA93;
+    padding-bottom: 80px;
+    font-size: 30px;  
+}
+h2{
+    text-align: center;
+    color: #3EAA93;
+    padding-bottom: 80px;
+    font-size: 30px;
+    padding-top: 20px;
+}
+
+form {
+    margin-bottom: 20px;
+    text-align: center;
+    padding-bottom:50px;
+}
+
+label {
+    display: inline-block;
+    width: 150px;
+ 
+}
+
+input {
+    padding: 5px;
+    margin: 5px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 50px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #f2f2f2;}
+
+.insta{
+    background-color: #38b2ac;
+    color: white;
+    border: none;}
+
+    .SESI{
+        color:white;
+    }
+    
+.insta :hover{
+       color: #318371;}

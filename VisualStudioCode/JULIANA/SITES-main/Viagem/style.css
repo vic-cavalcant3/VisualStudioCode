@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: Impact}
+
+header{
+    background-color: #1D0F6E;
+    height: 40px;
+    padding: 0px 30px 0px 30px;
+    color: white;
+    font-size: 20px;}
+
+.container{
+    display: flex;
+    /* pra deixar os itens flexiveis */
+    align-items: center;
+    /* pra colocar os intens ao centro */
+    justify-content: space-between;
+    /* space-around deixa espaços nos cantos
+       o space-between não deixa espaços */}
+
+.inicio{
+    background-image: url(/Viagem/img/aviao.png);
+    height:  700px;
+    background-size: cover;}
+
+h1{
+    font-size:96px ;
+    color: white;
+    width: 1200px;
+    text-align: center;
+    /* justify-content: center; */
+    padding-bottom: 250px;
+    padding-left: 140px;
+    padding-right: 100px;
+    font-weight: 100;
+    text-shadow: 3px 3px 5px (rgb(0, 0, 0, 0.3));}
+
+h2{
+    padding: 100px;
+    font-size: 80px;
+    font-weight: 100;
+    color: #1D0F6E;
+    text-align: center;}
+
+img{
+    width: 342px;
+    height: 513px;
+    border-radius: 20px;}
+
+.pacotes{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 100px;
+    padding-right: 100px;}
+
+.titulo , .subtitulo{
+    font-size: 32px;
+    text-align: center;}
+
+span{
+    font-size: 16px;
+    text-align: center;}
+
+h3{
+    font-size: 96px;
+    color: #1D0F6E;
+    text-align: center;
+    padding-top: 150px;
+    padding-bottom: 150px;}
+
+.barra{
+    background-color: #1D0F6E;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h4{
+    font-size: 48px;
+    text-align: center;
+    color: white;
+    font-weight: 100;}
+
+.caixa{
+    border: 2px solid black;
+    border-radius: 20px;
+}

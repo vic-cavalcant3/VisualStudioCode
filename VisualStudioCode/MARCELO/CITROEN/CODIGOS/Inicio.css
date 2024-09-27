@@ -1,0 +1,28 @@
+*{
+    font-family: "roca";
+}
+
+
+body {
+    margin: 0;               
+    display: flex;           
+    flex-direction: column;  
+    justify-content: center; 
+    align-items: center;    
+    height: 100vh;           
+    text-align: center;      
+    background-color: #3EAA93; 
+}
+
+
+img {
+    max-width: 100%;        
+    height: auto;           
+    margin-bottom: 20px;    
+}
+
+
+.cardapio {
+    font-size: 24px;        
+    color: white    
+}

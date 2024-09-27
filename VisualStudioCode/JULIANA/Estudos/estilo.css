@@ -1,0 +1,17 @@
+
+body{
+    background-color: antiquewhite;
+}
+
+h1{
+    text-align: center;
+    /* O color troca a cor do texto*/
+    color: darkred;
+    font-size: 50px;
+    background-color: blanchedalmond;
+}
+h2{
+    color: darkred;
+    font-size: 25px;
+    background-color: blanchedalmond;
+}

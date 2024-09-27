@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Citroen</title>
+    <link rel="stylesheet" href="CadastroAluno.css">
+</head>
+
+<header>
+    <div class="Barra1">
+
+        <div class="titulo">
+            <button class="sesi" onclick="reset()">SESI</button>
+        </div class= "titulo">
+
+            
+
+        <div class="cardapioDigital">
+        <p class="marçal">Cardápio digital</p>
+        </div>
+        </div>
+
+            <script>
+                function reset() {
+                window.location.href = "Selecione.html"}
+            </script> 
+</header>
+
+<body>
+
+    <div class="container">
+        <h3>SESI Cardápio Digital</h3>
+        
+        <form id="loginForm">
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email" placeholder="Digite seu email" required><br><br>
+
+            <label for="senha">Senha:</label>
+            <input type="password" id="senha" name="senha" placeholder="Digite sua senha" required><br><br>
+
+            <button type="submit">Entrar</button>
+        </form>
+
+        <a href="#">Instruções para acesso ao Portal</a>
+        <a href="#">Visualizar Política de Privacidade</a>
+        <a href="#">Esqueci minha senha</a>
+        <a href="#">Baixar Acrobat Reader (para visualizar arquivos PDF)</a>
+    </div>
+
+    <script>
+        document.getElementById("loginForm").addEventListener("submit", function(event) {
+            event.preventDefault(); 
+
+            const email = document.getElementById("email").value;
+            const senha = document.getElementById("senha").value;
+
+            if (email === "victor" && senha === "123") {
+                window.location.href = "Alunos.html";
+            } else {
+                alert("Email ou senha incorretos!");
+            }
+        });
+    </script>
+
+</body>
+</html>

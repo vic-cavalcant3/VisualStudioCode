@@ -1,0 +1,148 @@
+@font-face{
+    font-family: "lexend";
+    src: url(font/Lexend-VariableFont_wght.ttf);}
+    
+*  {border: 0;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;}
+
+header{
+    background-image: url(img/fundo.png);
+    background-size: cover;
+    height: 500px;}
+
+.TITULO{
+    font-family: "lexend";
+    font-weight: 400;
+    font-size: 60px;}
+
+.subtitulo{
+    font-family: "lexend";
+    font-size: 20px;}
+
+body{
+    background-color: #598c38;
+    margin-bottom: 20px;}
+
+.imagem{
+    height: 300px;}
+
+.divisão {
+    background-color: #F4F3F3;
+    width: 320px;
+    border-radius: 20px;}
+
+.display{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    gap: 20px;}
+
+.texto {    
+    font-family: "lexend";
+    font-size: 14px;
+    padding: 5px;
+    text-align: justify;}
+
+.nome {
+    font-family: "lexend";
+    font-size: 40px;
+    color: #F4F3F3;
+    font-weight: 500;}
+
+.redes{
+    color: #F4F3F3;
+    font-family: "lexend";
+    font-weight: 300;
+    font-size: 24px;}
+
+.sobre {
+    background-color: #F4F3F3;}
+
+.sobre .nome {
+    color: #000000}
+
+h3{
+    color:#598C38;
+    font-family: "lexand";
+    font-size: 30px;}
+
+p{
+    color: black;
+    font-size: 25px;}
+
+section, footer , header{
+    padding: 0px 150px;}
+
+.sobre{
+    padding: 50px 150px;}
+
+header{
+    padding-top: 200px;}
+
+h2{
+    font-size: 30;
+    height: 80px;
+    align-items:flex-start;
+    font-weight: 200;}
+
+h4{
+    font-size: 30;
+    background-color: #476C30;}
+
+.TextoSobre {
+    margin-bottom: 30px ;}
+
+.subtitulo1 {
+    float: left;
+    width: 20%;
+}
+.processo {
+    text-align: left;
+    padding: 50px 0;
+    margin-left: 40px; }
+
+.subtitulo {
+    color: #FFFFFF;
+    font-size: 40px;
+    font-family: "lexend";
+    font-weight: 300;
+    float:right;
+    width: 40%;
+}
+
+.IMPACTO {
+    font-size: 40px;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-family: "lexend";
+    padding-top: 20px;}
+
+.Textobla{
+    color: #FFFFFF;
+    font-weight: 200;
+    font-family: "lexend";
+    font-size: 20px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;}
+
+.img3{
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    width: 200px;
+    height: 150px;}
+
+.divlindo{
+    display: flex;
+    align-items: center;}
+.divlindo2{
+    display: flex;
+    align-items: center;}
+.divlindo3{
+    display: flex;
+    align-items: center;}
+
+.NossoImpacto{
+    background-color: #476C30;}

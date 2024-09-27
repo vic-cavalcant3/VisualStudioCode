@@ -1,0 +1,184 @@
+
+@font-face{
+    font-family: "neo-regular";
+    src: url(/FONTES/NeoSansProRegular.OTF);}
+
+@font-face{
+    font-family: "roca";
+    src: url(/FONTES/roca-two-regular.ttf);}
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "roca";
+    }
+    .logo {
+        max-width: 20%;
+        max-height: 20%;
+    }
+    
+    button.sesi {
+        color: white;
+        font-size: 50px;
+        background-color: #38b2ac;
+        border: none;
+        font-weight: bold;}
+    
+    .combinados {
+        background-color: #afd7ce;
+        width: 430px;
+        height: 590px;
+        border-radius: 15px 15px 15px 15px;
+        align-items: center;
+        border: none;
+        box-shadow: 5px 5px 5px 5px rgb(0, 0, 0 , 0.3); 
+        
+        
+        
+    }
+
+
+    .display{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+        margin-bottom: 45px;
+    }
+    
+    
+    h2 {
+        font-size: 49px;
+        text-align: center;
+        padding-bottom: 50px;
+        padding-top: 20px;
+         color: #84ada4b1;
+
+    }
+    
+    h3 {
+        font-size: 27px;
+       padding-left: 95px;
+        margin-bottom: 0px;
+       font-weight: 150;
+       color: rgb(126, 123, 123);
+       padding-top: 30px;
+       padding-bottom: 5px;
+    }
+
+
+    p{
+        padding: 10px 10px ;
+        padding-right: 25px;
+        padding-left: 50px; 
+       justify-content: center;
+        text-align: justify;
+        align-items: center;
+        line-height: 1.7; 
+        font-size: 16px;
+       color: rgb(94, 94, 94)
+    }
+    
+ 
+    .Barra1 {
+        display: flex;
+        justify-content: space-between; /* Espaça o título e o calendário */
+        align-items: center; /* Centraliza verticalmente os itens */
+        background-color: #38b2ac; /* Cor de fundo similar ao verde-água */
+        padding: 10px 20px;
+        height: 80px;
+        position: fixed;  /* Fixa a barra no topo */
+        top: 0;           /* Alinha ao topo */
+        left: 0;          /* Alinha à esquerda */
+        width: 100%;      /* Largura total da tela */
+        z-index: 1000;    /* Fica acima de outros elementos */}
+
+    .Barra2{
+        display: flex;
+        justify-content: space-between; /* Espaça o título e o calendário */
+        align-items: center; /* Centraliza verticalmente os itens */
+        background-color: #38b2ac; /* Cor de fundo similar ao verde-água */
+        padding: 10px 20px;
+        height: 80px;
+        width: 99%;
+        
+    }
+    .sesi{
+        font-size: 20px;
+        color: white;
+        font-weight: 400;}
+
+    .insta{
+        font-size: 20px;
+        color: white;
+        font-weight: 400;
+    }
+    
+    .titulo h1 {
+        font-size: 50px;
+        color: white;
+        font-weight: bold;
+    }
+    
+    .lula {
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;}
+    
+    
+    .calendario .imgCalendario {
+        width: 70px;
+        height: 70px;
+        padding: 50;
+    }
+    
+  
+    .cardapioDigital{
+        font-size: 30px;
+        color: white;
+        font-weight: 100;}
+
+    .cardapio {
+        width: 950px;
+        height: 600px;
+        border-image: round;
+        padding-top: 35px;}
+
+    .fotos_combinado{
+        height: 250px;
+        width: 320px;
+        padding-left: 100px;
+        padding-top: 15px;
+    
+        margin-bottom: 10px;
+        border-image:round }
+
+    body{
+        background-color: #F7F7F7;}
+
+    .marçal {
+        padding-right: 15px;
+        text-align: center;
+        padding-top: 50px;
+        font-size: 30px;
+        padding-bottom: 50px;
+    color: rgb(255, 255, 255);}
+
+    .insta{
+        background-color: #38b2ac;
+        color: white;
+        border: none;}
+
+        footer{
+            padding-top: 100px;
+        }
+        .SESI{
+            color:white
+        }
+
+    .insta :hover{
+        color: #318371;
+    }

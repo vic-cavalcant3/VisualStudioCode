@@ -1,0 +1,91 @@
+*{
+    font-family: "roca";
+}
+
+@font-face{
+    font-family: "roca";
+    src: url(/FONTES/roca-two-regular.ttf);}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.Barra1 {
+
+    display: flex;
+    justify-content: space-between; /* Espaça o título e o calendário */
+    align-items: center; /* Centraliza verticalmente os itens */
+    background-color: #38b2ac; /* Cor de fundo similar ao verde-água */
+    padding: 10px 20px;
+    height: 80px;
+    position: fixed;  /* Fixa a barra no topo */
+    top: 0;           /* Alinha ao topo */
+    left: 0;          /* Alinha à esquerda */
+    width: 98%;      /* Largura total da tela */
+    z-index: 1000;    /* Fica acima de outros elementos */
+}
+
+button.sesi {
+    color: white;
+    font-size: 50px;
+    background-color: #38b2ac;
+    border: none;
+    font-weight: bold;
+}
+
+.cardapioDigital{
+    font-size: 30px;
+    color: white;
+    font-weight: 100;
+   
+}
+
+.container {
+    width: 320px;
+    padding: 20px;
+    background-color: #e0e0e0;
+    border-radius: 15px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h3 {
+    color: #fff;
+    background-color: #2a9d8f;
+    padding: 10px;
+    border-radius: 5px 5px 0 0;
+    margin: -20px -20px 20px -20px;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid #000;
+    background-color: transparent;
+    font-size: 16px;
+}
+
+button {
+    background-color: #2a9d8f;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+a {
+    color: #2a9d8f;
+    text-decoration: none;
+    display: block;
+    margin: 10px 0;
+}

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Citroen</title>
+    <link rel="stylesheet" href="Funcionario.css">
+
+</head>
+<header>
+    <div class="Barra1">
+
+        <div class="titulo">
+            <button class="sesi" onclick="reset()">SESI</button>
+        </div class= "titulo">
+
+            
+
+        <div class="cardapioDigital">
+        <p class="marçal">Cardápio digital</p>
+        </div>
+        </div>
+
+            <script>
+                function reset() {
+                window.location.href = "Selecione.html"}
+            </script> 
+            
+</header>
+
+
+    
+<body>
+    <div class="lula">
+    <img class="cardapio" src="/IMAGENS/cardapio.jpeg" alt="cardapio">
+    </div>
+
+    <h1>Informações de Contagem</h1>
+
+    <!-- Formulário para inserir dados -->
+    <form id="contagemForm">
+        <label for="turma">Nome da Turma:</label>
+        <input type="text" id="turma" name="turma" required><br><br>
+
+        <label for="totalAlunos">Total de Alunos:</label>
+        <input type="number" id="totalAlunos" name="totalAlunos" required><br><br>
+
+        <label for="alunosVegetarianos">Alunos Vegetarianos:</label>
+        <input type="number" id="alunosVegetarianos" name="alunosVegetarianos" required><br><br>
+
+        <button type="buttonad" onclick="adicionarResultado()">Adicionar Resultado</button>
+    </form>
+
+    <!-- Tabela para mostrar os resultados -->
+    <h2>Resultados de Contagem</h2>
+    <table id="resultTable">
+        <thead>
+            <tr>
+                <th>Turma</th>
+                <th>Total de Alunos</th>
+                <th>Alunos Vegetarianos</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Linhas serão adicionadas dinamicamente -->
+        </tbody>
+    </table>
+
+    <script src="Funcionario.js"></script>
+    
+    
+    <footer>
+        <div class="Barra2"> 
+            <div class="sesi">
+                <p class="SESI">SESI - Ferraz de Vasconcelos 240</p> 
+            </div class= "titulo">
+    
+            <div class="insta">
+                <button class = "insta" onclick="window.open('https:www.instagram.com/sesisp?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw', '_blank')"> @sesisp</button>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
+
+
+
+
