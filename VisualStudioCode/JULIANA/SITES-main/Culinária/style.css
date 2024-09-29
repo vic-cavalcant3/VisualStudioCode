@@ -1,22 +1,32 @@
-*{
+*{  
     margin: 0;
     padding: 0;
     border: 0;
-    font-family: 'Gill Sans MT'}
+    font-family: 'Gill Sans MT';
+}
+
+/* .wrapper{
+    width: 90;
+    max-width: 1440px;
+} */
+
+
 
 header{
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: #ECA457;
-    height: 130px;}
+    height: 130px;
+}
 
 .icone{
     display: flex;
     justify-content: space-between;
     width: 140px;
     height: 140px;
-    padding: 10px 30px 10px 50px;}
+    padding: 10px 30px 10px 50px;
+}
 
 a{
     font-size: 25px;
@@ -54,13 +64,15 @@ h1{
     justify-content: center;
     display: flex;
     flex-wrap: wrap;
+    padding-bottom: 60px;
+    padding-top: 30px;
 }
 
 .icon{
-    margin-right: 20px;
-    padding-top: 50px;
+    padding-right: 15px; 
     height: 100px;
     width: 100px;
+    object-fit: contain;
 }
 
 .caixa{
@@ -68,11 +80,43 @@ h1{
     margin: 0px 100px;
     align-items: center; 
     justify-content: center;
-    display: flex;}
+    display: flex;
+    flex-direction: row;}
 
 .teste{
+    display: flex;
+    justify-content: center;
     flex-direction: column;}
 
-.titulo, .subtitulo{
-    justify-content:  center;
-    font-size: 20px;}
+.titulo {
+    font-weight: 100;
+    font-size: 35px;}
+
+.subtitulo{
+    color: #AFA7A7;
+    font-size: 25px;
+}
+
+hr{ 
+    border: #ECA457 solid 2px;
+}
+
+.nova{
+    justify-content: center;
+    gap: 20px;
+    display: flex;
+    align-items: center;
+    padding-bottom: 80px;
+}
+
+img{
+    width: 100px;
+    height: 100px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    background-color: #ECA457;
+    height:150px;
+}

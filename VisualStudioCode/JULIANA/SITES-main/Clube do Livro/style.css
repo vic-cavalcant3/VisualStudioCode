@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: Verdana;}
+
+header{
+    background-color: #648769 ;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;}
+.livros{
+    width: 600px;
+    height: 350px;
+    padding-right: 120px;}
+h1{
+    color: white;
+    font-size: 70px;
+    padding-left: 100px;}
+
+h2{
+    font-size: 50px;
+    padding: 120px 80px 180px 120px;}
+span{
+    color: #2A5B31;}
+
+.icon{
+    width: 100px;
+    height: 100px;}
+
+.tudo{
+    justify-content: center;
+    display: flex;
+    gap: 180px;}
+h3{
+    font-size: 30px;}
+p{
+    font-size: 20px;
+    width: 200px;
+    font-weight: 100;
+    height: 100px;
+    margin-bottom: 80px;}
+
+h4{
+    margin-top: 100px;
+    color: white;
+    font-size: 60px;
+    background-color: #648769;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+
+}
